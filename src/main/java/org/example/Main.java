@@ -23,9 +23,9 @@ public class Main {
 
         String json = listToJson(list);
 
-        String filename = "data.json";
+        String fileNameJson = "data.json";
 
-        writeString(json, filename);
+        writeString(json, fileNameJson);
     }
 
     private static List<Employee> parseCSV(String[] columnMapping, String fileName) {
